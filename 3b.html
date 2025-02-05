@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Details</title>
+</head>
+<body>
+
+  <h1>Movie Details</h1>
+  <p id="movie-details"></p>
+
+  <script>
+    const movieName = "Inception"; 
+    const language = "English";    
+    const rating = 8.8;            
+    const releaseYear = 2010;
+
+    const starring = ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"];
+
+    const movie = {
+      name: movieName,
+      starring: starring,
+      language: language,
+      rating: rating,
+      releaseYear: releaseYear
+    };
+
+    const movieDetails = `
+      <strong>Movie Name:</strong> ${movie.name}<br>
+      <strong>Starring:</strong> ${movie.starring.join(", ")}<br>
+      <strong>Language:</strong> ${movie.language}<br>
+      <strong>Rating:</strong> ${movie.rating}<br>
+      <strong>Release Year:</strong> ${movie.releaseYear}
+    `;
+
+    document.getElementById("movie-details").innerHTML = movieDetails;
+  </script>
+
+</body>
+</html>
