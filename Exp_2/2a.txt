@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<img src="C:\Users\STUDENT\Desktop\Exp_2\img.png" alt = 'image' width='350' heigh='250'><br><br>
+<h2 id='Media">Media</h2>
+Listen to some music: </br>
+<audio src = "C:\Users\STUDENT\Desktop\Exp_2\shinchan.mp3" controls = 'controls'></audio><br><br>
+View Video: <br/>
+<video src= "C:\Users\STUDENT\Desktop\Exp_2\Shinchan-Fullscreen-Whatsapp-Status-Videos.mp4" ontrols = 'controls' width ='350' height='250'></video>
+
+<nav>
+About us | Privacy Policy | Contact us | FAQ | Terms & Conditions
+</nav>
+<footer>
+Copyright &copy; 2018 | Vishnu
+</footer>
+<aside>
+Like and Connect with us FB Twitter G+
+</aside>
+</body>
+</html
